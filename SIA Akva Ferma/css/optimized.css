@@ -1,0 +1,37 @@
+/* Оптимизированные стили для улучшения производительности */
+img {
+    max-width: 100%;
+    height: auto;
+    opacity: 1;
+    transition: opacity 0.3s;
+}
+
+img[data-src] {
+    opacity: 0;
+}
+
+/* Оптимизация для мобильных устройств */
+@media (max-width: 768px) {
+    img {
+        width: auto;
+        max-height: 300px;
+    }
+}
+
+/* Предзагрузка важных изображений */
+.preload-image {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    border: 0;
+}
+
+/* Оптимизация анимаций */
+.splide__slide {
+    will-change: transform;
+    transform: translateZ(0);
+}

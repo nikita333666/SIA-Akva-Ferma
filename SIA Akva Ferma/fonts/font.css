@@ -1,0 +1,29 @@
+@charset "utf-8";
+/*
+        Михаил Бабидов
+        skype: compo_life
+*/
+@font-face {
+    font-family: 'Uni Sans';
+    src: local('Uni Sans Thin Caps'), local('UniSansThinCaps'), url('300.woff2') format('woff2'), url('300.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Uni Sans';
+    src: local('Uni Sans Heavy Caps'), local('UniSansHeavyCaps'), url('900.woff2') format('woff2'), url('900.woff') format('woff');
+    font-weight: 700;
+    font-style: normal;
+}
+@font-face {
+    font-family: "BebasNeue";
+    src: url("BebasNeue/BebasNeueBold.eot");
+    src: local('☺'), 
+    url("BebasNeueBold.eot?#iefix") format("embedded-opentype"), 
+    url("BebasNeueBold.woff") format("woff"), 
+    url("BebasNeueBold.ttf") format("truetype");
+    /*url("BebasNeueBold.svg") format("svg");*/
+
+    font-weight: bold;
+    font-style: normal;
+}
